@@ -1,12 +1,5 @@
-// Оголоси наступні операції:
-// fetchContacts - одержання масиву контактів (метод GET) запитом. Базовий тип екшену це рядок "contacts/fetchAll".
-// addContact - додавання нового контакту (метод POST). Базовий тип екшену це рядок "contacts/addContact".
-// deleteContact - видалення контакту по ID (метод DELETE). Базовий тип екшену це рядок "contacts/deleteContact".
-
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-
-axios.defaults.baseURL = "https://675f1c861f7ad24269979c7a.mockapi.io/";
 
 export const fetchContacts = createAsyncThunk(
   "contacts/fetchAll",

@@ -70,8 +70,3 @@ const sliceContacts = createSlice({
 });
 
 export default sliceContacts.reducer;
-
-//  створи та експортуй мемоізований селектор selectFilteredContacts за допомогою функції createSelector.
-// Селектор повинен залежати від поточних масиву контактів і значення фільтра, та повертати відфільтрований масив контактів.
-// Селектор selectFilteredContacts імпортується у компонент списка контактів ContactList.jsx та використовується у useSelector.
-``;
